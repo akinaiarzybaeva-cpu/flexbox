@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.blocks{
+    background-color: aqua  ;
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+    align-items: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.block{
+   width: 300px;
+   border: 1px solid black;
+}
+.block img{
+    width: 100%;
+}
